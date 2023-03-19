@@ -1,0 +1,28 @@
+.btnBlock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+}
+
+.btn{
+    border: 2px solid deepskyblue;
+    padding: 10px;
+    font-size: x-large;
+    font-style: italic;
+    background-color: #00ffff8f;
+}
+
+.btnAddScore{
+    margin-right: 30px;
+}
+
+.btnRemoveScore{
+
+}
+
+.score{
+    font-size: x-large;
+    font-style: italic;
+    margin-right: 30px;
+}
