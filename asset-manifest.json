@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Learn-Redux/tree/master/Lesson5/client/static/css/main.7d2386ce.css",
+    "main.js": "/Learn-Redux/tree/master/Lesson5/client/static/js/main.bba206a2.js",
+    "index.html": "/Learn-Redux/tree/master/Lesson5/client/index.html",
+    "main.7d2386ce.css.map": "/Learn-Redux/tree/master/Lesson5/client/static/css/main.7d2386ce.css.map",
+    "main.bba206a2.js.map": "/Learn-Redux/tree/master/Lesson5/client/static/js/main.bba206a2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d2386ce.css",
+    "static/js/main.bba206a2.js"
+  ]
+}
