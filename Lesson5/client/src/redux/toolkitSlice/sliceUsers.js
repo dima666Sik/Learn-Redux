@@ -11,19 +11,15 @@ const sliceUsers = createSlice({
 				id: Date.now(),
 				name: action.payload,
 			};
-			state.users.push(user);
+			return { ...state, users: [...state.users, user] };
 		},
-		// fix this!
 		removeUser(state, action) {
-			console.log(state);
 			return {
 				...state,
 				users: state.users.filter((user) => user.id !== action.payload.id),
 			};
 		},
-		// fix this!
 		removeUserForName(state, action) {
-			console.log(...state.users, action);
 			return {
 				...state,
 				users: state.users.filter((user) => user.name !== action.payload),

@@ -1,6 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
 import "./App.css";
-// import { addUserAction, removeUserAction } from "./redux/store/userReducer";
 import { fetchUsers } from "./redux/asyncActions/users";
 import {
 	incrementScore,
@@ -16,16 +15,6 @@ function App() {
 	const dispatch = useDispatch();
 	const score = useSelector((state) => state.score.score);
 	const users = useSelector((state) => state.users.users);
-
-	console.log(score);
-
-	// const removeUser = (user) => {
-	// 	dispatch(removeUserAction(user.id));
-	// };
-
-	// const removeUserForName = (payload) => {
-	// 	removeUser(...users.filter((user) => user.name === payload));
-	// };
 
 	return (
 		<div className="App">
